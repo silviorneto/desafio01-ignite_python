@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "pyagenda"
+version = "0.1.0"
+description = "Agenda para salvar, editar, deletar e marcar um contato como favorito via terminal."
+authors = ["Silvio Romano Neto <silvioromano.dev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
